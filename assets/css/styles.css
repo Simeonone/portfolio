@@ -688,9 +688,42 @@ a {
   background-color: var(--scroll-thumb-color);
   border-radius: 0.5rem;
 }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-color-light);
+}
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
+@media screen and(max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 
+  .nav__menu {
+    padding: 2rem 0.25rem 4rem;
+  }
+
+  .nav__list {
+    column-gap: 0;
+  }
+  .home__content {
+    grid-template-columns: 0.25fr 3fr;
+  }
+  .skills__title {
+    font-size: var(--normal-font-size);
+  }
+  .qualification__data {
+    gap: 0.5rem;
+  }
+  .articles__container {
+    grid-template-columns: max-content;
+    justify-content: center;
+  }
+  .articles__content {
+    padding-right: 3.5rem;
+  }
+}
 /* For medium devices */
 
 /* For large devices */
