@@ -874,7 +874,43 @@ a {
     margin-top: 4.5rem;
   }
 }
-/* For large devices */ /* cursor effect */ /* .txt-type > .txt { */ /* border-right: 0.3rem solid #7777; */ /* animation: blinkTextCursor 500ms steps(40) infinite normal; */ /* } */
+/* For large devices */
+@media screen and (min-width: 1024px) {
+  .header,
+  .main,
+  .footer__container {
+    padding: 0;
+  }
+  .txt-type {
+    font-size: 50px;
+  }
+  .home__social {
+    transform: translateX(-6rem);
+  }
+  .articles__container {
+    grid-template-columns: repeat(3, 238px);
+  }
+  .swiper-portfolio-icon {
+    font-size: 3.5rem;
+  }
+  .swiper-button-prev {
+    left: -3.5rem;
+  }
+  .swiper-button-next {
+    right: -3.5rem;
+  }
+  /* cfo */
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: -4.5rem;
+  }
+  .contact__form {
+    width: 460px;
+  }
+  .contact__inputs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* cursor effect */ /* .txt-type > .txt { */ /* border-right: 0.3rem solid #7777; */ /* animation: blinkTextCursor 500ms steps(40) infinite normal; */ /* } */
 .txt-type > .txt {
   border-right: 0.2rem solid var(--first-color-second);
   animation: blinkTextCursor 500ms steps(40) infinite normal;
