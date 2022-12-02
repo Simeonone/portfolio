@@ -342,6 +342,7 @@ a {
 }
 
 .button--flex {
+  border: none;
   display: inline-flex;
   align-items: center;
 }
