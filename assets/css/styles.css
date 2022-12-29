@@ -10,6 +10,7 @@
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 50%);
+  --footer-body: hsl(var(--hue-color), 69%, 15%);
   --first-color-second: hsl(var(--hue-color), 69%, 35%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -616,7 +617,8 @@ a {
   row-gap: 3.5rem;
 }
 .footer__bg {
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: var(--footer-body);
   padding: 2rem 0 3rem;
 }
 .footer__title {
@@ -644,8 +646,8 @@ a {
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: darkgreen;
-  /* color: var(--text-color-light); */
+  /* color: var(--first-color); */
+  color: var(--text-color-light);
   margin-top: var(--mb-3);
 }
 .footer__title,
