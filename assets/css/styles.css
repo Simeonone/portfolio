@@ -570,6 +570,10 @@ a {
 /*==================== TESTIMONIAL ====================*/
 
 /*==================== CONTACT ME ====================*/
+.mailto {
+  /* text-decoration: none; */
+  color: inherit;
+}
 .contact__container {
   row-gap: 3rem;
 }
