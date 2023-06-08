@@ -45,7 +45,14 @@ skillsHeader.forEach((el) => {
 /*==================== QUALIFICATION TABS ====================*/
 const tabs = document.querySelectorAll("[data-target]"),
   tabContents = document.querySelectorAll("[data-content]");
-
+document.querySelector(`.edu`).addEventListener("click", function(){
+  document.querySelector(`.edu`).style.color = "var(--first-color-second)";
+  document.querySelector(`.wrk`).style.color = "var(--text-color)";
+})
+document.querySelector(`.wrk`).addEventListener("click", function(){
+  document.querySelector(`.wrk`).style.color = "var(--first-color-second)";
+  document.querySelector(`.edu`).style.color = "var(--text-color)";
+})
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
     const target = document.querySelector(tab.dataset.target);
