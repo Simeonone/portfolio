@@ -45,18 +45,29 @@ skillsHeader.forEach((el) => {
 /*==================== QUALIFICATION TABS ====================*/
 const tabs = document.querySelectorAll("[data-target]"),
   tabContents = document.querySelectorAll("[data-content]");
-document.querySelector(`.edu`).style.textDecoration = "underline";
+document.querySelector(`.edu`).style.borderBottom = "1px solid";
 document.querySelector(`.edu`).addEventListener("click", function(){
   document.querySelector(`.edu`).style.color = "var(--first-color-second)";
-  document.querySelector(`.edu`).style.textDecoration = "underline";
   document.querySelector(`.wrk`).style.color = "var(--text-color)";
-  document.querySelector(`.wrk`).style.textDecoration = "none";
+  document.querySelector(`.edu`).style.boxShadow = "5px 10px";
+  document.querySelector(`.edu`).style.border = "1px solid";
+  document.querySelector(`.edu`).style.padding = "10px";
+  document.querySelector(`.wrk`).style.boxShadow = "none";
+  document.querySelector(`.wrk`).style.border = "none";
+  document.querySelector(`.wrk`).style.padding = "none";
+  document.querySelector(`.edu`).style.borderBottom = "none";
 })
 document.querySelector(`.wrk`).addEventListener("click", function(){
+  document.querySelector(`.edu`).style.borderBottom = "none";
   document.querySelector(`.wrk`).style.color = "var(--first-color-second)";
-  document.querySelector(`.edu`).style.textDecoration = "none";
   document.querySelector(`.edu`).style.color = "var(--text-color)";
-  document.querySelector(`.wrk`).style.textDecoration = "underline";
+  document.querySelector(`.wrk`).style.boxShadow = "5px 10px";
+  document.querySelector(`.wrk`).style.border = "1px solid";
+  document.querySelector(`.wrk`).style.padding = "10px";
+  document.querySelector(`.edu`).style.boxShadow = "none";
+  document.querySelector(`.edu`).style.border = "none";
+  document.querySelector(`.edu`).style.padding = "none";
+
 })
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
