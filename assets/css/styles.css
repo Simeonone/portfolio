@@ -421,6 +421,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2);
+  display:none;
 }
 .qualification__button {
   font-size: var(--h3-font-size);
@@ -433,6 +434,7 @@ a {
 .qualification__icon {
   font-size: 1.8rem;
   margin-right: var(--mb-0-25);
+  display: none;
 }
 .qualification__data {
   display: grid;
