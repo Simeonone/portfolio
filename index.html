@@ -1,731 +1,758 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png" />
-    <!--==================== UNICONS ====================-->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <!-- ASYNC JS -->
-    <script defer src="assets/js/main.js"></script>
-    <title>Simeon Osiemo Portfolio Website</title>
-  </head>
-  <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Simeon</a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i>Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i>About
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-file nav__icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#articles" class="nav__link">
-                <i class="uil uil-book-open nav__icon"></i>
-                Articles
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i>Portfolio
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-envelope-edit nav__icon"></i>Contact
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="assets/img/logo.png" />
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- ASYNC JS -->
+  <script defer src="assets/js/main.js"></script>
+  <title>Simeon Osiemo Portfolio Website</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Simeon</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file nav__icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#articles" class="nav__link">
+              <i class="uil uil-book-open nav__icon"></i>
+              Articles
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i>Portfolio
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-envelope-edit nav__icon"></i>Contact
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
         </div>
-        <div class="nav__btns">
-          <!-- Theme change button -->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/simeon-osiemo-6aa62a185/" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://www.behance.net/simeonkengere" target="_blank" class="home__social-icon">
+              <i class="uil uil-behance"></i>
+            </a>
+            <a href="https://medium.com/@simeon.kengere" target="_blank" class="home__social-icon">
+              <i class="uil uil-medium-m"></i>
+            </a>
+            <a href="https://github.com/Simeonone" target="_blank" class="home__social-icon">
+              <i class="uil uil-github"></i>
+            </a>
           </div>
-        </div>
-      </nav>
-    </header>
-
-    <!--==================== MAIN ====================-->
-    <main class="main">
-      <!--==================== HOME ====================-->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
-              <a
-                href="https://www.linkedin.com/in/simeon-osiemo-6aa62a185/"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-linkedin-alt"></i>
-              </a>
-              <a
-                href="https://www.behance.net/simeonkengere"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-behance"></i>
-              </a>
-              <a
-                href="https://medium.com/@simeon.kengere"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-medium-m"></i>
-              </a>
-              <a
-                href="https://github.com/Simeonone"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-github"></i>
-              </a>
-            </div>
-            <!-- <div class="home__img"></div>
+          <!-- <div class="home__img"></div>
             28:35 timestamp 
         svg class = home__blob -->
-            <div class="home__img">
-              <h1
-                class="txt-type"
-                data-wait="3000"
-                data-words='["Developer","UI/UX Designer", "Data Scientist"]'
-              ></h1>
-            </div>
-            <div class="home__data">
-              <h1 class="home__title">Hi, I am Simeon Osiemo</h1>
-              <h3 class="home__subtitle">A Computer Scientist by profession</h3>
-              <p class="home__description">an artist by heart</p>
-              <a href="#contact" class="button button--flex"
-                >Contact Me
-                <i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
+          <div class="home__img">
+            <h1 class="txt-type" data-wait="3000" data-words='["Developer","UI/UX Designer", "Data Scientist"]'></h1>
           </div>
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          <div class="home__data">
+            <h1 class="home__title">Hi, I am Simeon Osiemo</h1>
+            <h3 class="home__subtitle">A Computer Scientist by profession</h3>
+            <p class="home__description">an artist by heart</p>
+            <a href="#contact" class="button button--flex">Contact Me
+              <i class="uil uil-message button__icon"></i>
             </a>
           </div>
         </div>
-      </section>
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
 
-      <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">Brief</span>
-        <div class="about__container container grid">
-          <div class="about__data">
-            <p class="about__description">My passion is helping organizations leverage new technologies that generate significant business value. I have experience in creating optimized, efficient, and reusable code and mockups to solve problems, enhance user experience, and exceed company objectives and goals. A highly adaptable, passionate learner with a strong work ethic.</p>
-            <div class="about__buttons">
-              <a href="https://drive.google.com/file/d/1breVqU1G6wPPqdEpJu33fAPwPX1G2hWW/view?usp=sharing" target="_blank" class="button button--flex">
-                Résumé <i class="uil uil-file-alt button__icon"></i>
-              </a>
-            </div>
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">Brief</span>
+      <div class="about__container container grid">
+        <div class="about__data">
+          <p class="about__description">My passion is helping organizations leverage new technologies that generate
+            significant business value. I have experience in creating optimized, efficient, and reusable code and
+            mockups to solve problems, enhance user experience, and exceed company objectives and goals. A highly
+            adaptable, passionate learner with a strong work ethic.</p>
+          <div class="about__buttons">
+            <a href="https://drive.google.com/file/d/1breVqU1G6wPPqdEpJu33fAPwPX1G2hWW/view?usp=sharing" target="_blank"
+              class="button button--flex">
+              Résumé <i class="uil uil-file-alt button__icon"></i>
+            </a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">Technical Summary</span>
-        <div class="skills__container container grid">
-          <div>
-            <!-- SKILL 1 -->
-            <div class="skills__content skills__open">
-              <div class="skills__header">
-                <i class="uil uil-brackets-curly skills__icon"></i>
-                <div>
-                  <h1 class="skills__titles">Frontend Development</h1>
-                </div>
-                <i class="uil uil-angle-down skills__arrow"></i>
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">Technical Summary</span>
+      <div class="skills__container container grid">
+        <div>
+          <!-- SKILL 1 -->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+              <div>
+                <h1 class="skills__titles">Frontend Development</h1>
               </div>
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">HTML</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">CSS (With responsive design)</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Vanilla JavaScript</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">React JS</h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">SASS / SCSS / LESS</h3>
-                  </div>
-                </div>
-              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
             </div>
-
-              <!-- SKILL 2 -->
-            <div class="skills__content skills__close">
-                <div class="skills__header">
-                    <i class="uil uil-object-group skills__icon"></i>
-                  <div>
-                    <h1 class="skills__titles">Designer</h1>
-                  </div>
-                  <i class="uil uil-angle-down skills__arrow"></i>
-                </div>
-                <div class="skills__list grid">
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Adobe XD</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Figma</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Adobe Illustrator</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Adobe Photoshop</h3>
-                    </div>
-                  </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">HTML</h3>
                 </div>
               </div>
-            <!-- SKILL 3 -->
-            <div class="skills__content skills__close">
-                <div class="skills__header">
-                    <i class="uil uil-arrow skills__icon"></i>
-                  <div>
-                    <h1 class="skills__titles">Other tools and technologies</h1>
-                  </div>
-                  <i class="uil uil-angle-down skills__arrow"></i>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">CSS (With responsive design)</h3>
                 </div>
-                <div class="skills__list grid">
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Git</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Embedded Intelligent Systems with Arduino</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Edge Impulse</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Babel</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">PostgreSQL</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">R</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">C and C++</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">MySQL</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Python</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Django</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Git Kraken</h3>
-                    </div>
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Jira</h3>
-                    </div>
-                  </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Vanilla JavaScript</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">React JS</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">SASS / SCSS / LESS</h3>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section">
-        <h2 class="section__title">Education</h2>
-        <span class="section__subtitle">Education background</span>
-        <div class="qualification__container container">
-            <div class="qualification__tabs">
-                <div class="qualification__button button--flex qualification__active edu" data-target="#education">
-                    <i class="uil uil-graduation-cap qualification__icon"></i>
-                    Education
-                </div>
-                <div class="qualification__button button--flex qualification__active wrk" data-target="#work">
-                    <i class="uil uil-briefcase-alt qualification__icon"></i>
-                    Work Experience
-                </div>
+          <!-- SKILL 2 -->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-object-group skills__icon"></i>
+              <div>
+                <h1 class="skills__titles">Designer</h1>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
             </div>
-            <div class="qualification__sections">
-                <!-- Qualification content 1 -->
-                <div class="qualification__content qualification__active" data-content id="education">
-                    <!-- Qualification 1 -->
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">Computer Science (Bachelor's Degree)</h3>
-                            <span class="qualification__subtitle">University of Nairobi</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2017-2021 <span class="more__info"><a href="https://drive.google.com/file/d/1f-Pps9RGE5iWRailrkLynGI7U4ECHk64/view?usp=sharing" target="_blank"> View </a></span>
-                            </div>
-                        </div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                    </div>
-                    <!-- Qualification 2 -->
-                    <div class="qualification__data">
-                        <div></div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                        <div>
-                            <h3 class="qualification__title">Computer Science (Diploma)</h3>
-                            <span class="qualification__subtitle">University of Nairobi</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2017-2019 <span class="more__info"> <a href="https://drive.google.com/file/d/18n9YPPKOneAUHNXPCIbW8kfttA4zA99A/view?usp=sharing" target="_blank"> View </a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Qualification 3 -->
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">C.P.A(Part One Section One)</h3>
-                            <span class="qualification__subtitle">Strathmore University</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2017(Jan-May) <span class="more__info"><a href="https://drive.google.com/file/d/1NsGZzGieQD5LVn0ovU1l-G5eZkMJ1-jB/view?usp=sharing" target="_blank">View</a></span>
-                            </div>
-                        </div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <!-- <span class="qualification__line"></span> -->
-                        </div>
-                    </div>
-                    
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Adobe XD</h3>
                 </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Figma</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Adobe Illustrator</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Adobe Photoshop</h3>
+                </div>
+              </div>
             </div>
-            <div class="qualification__sections">
-                <!-- Qualification content 2 -->
-                <div class="qualification__content" data-content id="work">
-                  <!-- Qualification 0 -->
-                  <div class="qualification__data">
-                    <div>
-                      <h3 class="qualification__title">Research Assistant</h3>
-                      <span class="qualification__subtitle">University of Nairobi</span>
-                      <div class="qualification__calendar">
-                          <i class="uil uil-calendar-alt"></i>
-                          2023(Feb) - Now
-                      </div>
-                  </div>
-                  <div>
-                      <span class="qualification__rounder"></span>
-                      <span class="qualification__line"></span>
-                  </div>
+          </div>
+          <!-- SKILL 3 -->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-arrow skills__icon"></i>
+              <div>
+                <h1 class="skills__titles">Other tools and technologies</h1>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Git</h3>
                 </div>
-                    <!-- Qualification 1 -->
-                    <div class="qualification__data">
-                        <div></div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                        <div>
-                            <h3 class="qualification__title">Data Scientist</h3>
-                            <span class="qualification__subtitle">Fujita Corporation Japan</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2022(Oct) - 2023(Feb) <span class="more__info"><a href="https://drive.google.com/file/d/1Fzlc7_hTFd7-msWClq66ejLdVhC9272Q/view?usp=sharing" target="_blank">View </a></span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <!-- Qualification 2 -->
-                    <div class="qualification__data">
-                        <!-- <div></div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Embedded Intelligent Systems with Arduino</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Edge Impulse</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Babel</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">PostgreSQL</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">R</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">C and C++</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">MySQL</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Python</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Django</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Git Kraken</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Jira</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification section">
+      <h2 class="section__title">Education</h2>
+      <span class="section__subtitle">Education background</span>
+      <div class="qualification__container container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active edu" data-target="#education">
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Education
+          </div>
+          <div class="qualification__button button--flex qualification__active wrk" data-target="#work">
+            <i class="uil uil-briefcase-alt qualification__icon"></i>
+            Work Experience
+          </div>
+        </div>
+        <div class="qualification__sections">
+          <!-- Qualification content 1 -->
+          <div class="qualification__content qualification__active" data-content id="education">
+            <!-- Qualification 1 -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Computer Science (Bachelor's Degree)</h3>
+                <span class="qualification__subtitle">University of Nairobi</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2017-2021 <span class="more__info"><a
+                      href="https://drive.google.com/file/d/1f-Pps9RGE5iWRailrkLynGI7U4ECHk64/view?usp=sharing"
+                      target="_blank"> View </a></span>
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+            <!-- Qualification 2 -->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">Computer Science (Diploma)</h3>
+                <span class="qualification__subtitle">University of Nairobi</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2017-2019 <span class="more__info"> <a
+                      href="https://drive.google.com/file/d/18n9YPPKOneAUHNXPCIbW8kfttA4zA99A/view?usp=sharing"
+                      target="_blank"> View </a></span>
+                </div>
+              </div>
+            </div>
+            <!-- Qualification 3 -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">C.P.A(Part One Section One)</h3>
+                <span class="qualification__subtitle">Strathmore University</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2017(Jan-May) <span class="more__info"><a
+                      href="https://drive.google.com/file/d/1NsGZzGieQD5LVn0ovU1l-G5eZkMJ1-jB/view?usp=sharing"
+                      target="_blank">View</a></span>
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <!-- <span class="qualification__line"></span> -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="qualification__sections">
+          <!-- Qualification content 2 -->
+          <div class="qualification__content" data-content id="work">
+            <!-- Qualification 0 -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Research Assistant</h3>
+                <span class="qualification__subtitle">University of Nairobi</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2023(Feb) - Now
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+            <!-- Qualification 1 -->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">Data Scientist</h3>
+                <span class="qualification__subtitle">Fujita Corporation Japan</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2022(Oct) - 2023(Feb) <span class="more__info"><a
+                      href="https://drive.google.com/file/d/1Fzlc7_hTFd7-msWClq66ejLdVhC9272Q/view?usp=sharing"
+                      target="_blank">View </a></span>
+                </div>
+              </div>
+
+            </div>
+            <!-- Qualification 2 -->
+            <div class="qualification__data">
+              <!-- <div></div>
                         <div>
                             <span class="qualification__rounder"></span>
                             <span class="qualification__line"></span>
                         </div> -->
-                        <div>
-                            <h3 class="qualification__title">System Implementer</h3>
-                            <span class="qualification__subtitle">AfyaPro 2.0 Connected Care</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2021(Nov)-2022(Aug) <span class="more__info"><a href="https://drive.google.com/file/d/1uR_Hc8fwtPY-idJdaAJzbXkgsZ-1oCsV/view?usp=sharing" target="_blank">View </a></span>
-                            </div>
-                        </div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                    </div>
-                    <!-- Qualification 3 -->
-                    <div class="qualification__data">
-                        <div></div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <!-- <span class="qualification__line"></span> -->
-                        </div>
-                        <div>
-                            <h3 class="qualification__title">Software Engineer</h3>
-                            <span class="qualification__subtitle">Ongata Rongai Sub-County Hospital</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                2021(May-Nov) <span class="more__info"> <a href="https://drive.google.com/file/d/1Q6cY6XYd_TeHu2iqWWOnCo0D9mKGXH2V/view?usp=sharing" target="_blank">View </a></span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
+              <div>
+                <h3 class="qualification__title">System Implementer</h3>
+                <span class="qualification__subtitle">AfyaPro 2.0 Connected Care</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2021(Nov)-2022(Aug) <span class="more__info"><a
+                      href="https://drive.google.com/file/d/1uR_Hc8fwtPY-idJdaAJzbXkgsZ-1oCsV/view?usp=sharing"
+                      target="_blank">View </a></span>
                 </div>
-            </div>
-        </div>
-      </section>
-
-      <!--==================== Articles ====================-->
-      <section class="articles section" id="articles">
-        <h2 class="section__title">Articles</h2>
-        <span class="section__subtitle">Some of my blog posts</span>
-        <div class="articles__container container grid">
-          <!-- articles 1 -->
-          <div class="articles__content">
-            <div>
-              <i class="uil uil-java-script articles__icon"></i>
-              <h3 class="articles__title">Optional Chaining in JavaScript</h3>
-            </div>
-            <span > With JavaScript version ES2020, optional chaining (?.) was first introduced to help read the value of properties of nested properties of objects... <br>
-              <span class="button button--flex button--small button--link articles__button"> <a href="https://medium.com/weekly-webtips/optional-chaining-in-javascript-d29a9ddc8737" target="_blank"> Read more </a>
-              <i class="uil uil-arrow-right button__icon"></i> 
-            </span>
-            </span>
-          </div>
-          <!-- articles 2 -->
-          <div class="articles__content">
-            <div>
-              <i class="uil uil-mobile-android articles__icon"></i>
-              <h3 class="articles__title">Create UI mockups faster in Adobe XD with components</h3>
-            </div>
-            <span> Adobe XD components help UI designers work with similar elements in multiple UI screen mockups at the same time which helps them work faster and maintain uniformity across all UI screen mockups... <br> <span class="button button--flex button--small button--link articles__button"><a href="https://medium.com/@simeon.kengere/create-ui-mockups-faster-in-adobe-xd-with-components-9d9b6ba7b6e1" target="_blank"> Read more </a>
-              <i class="uil uil-arrow-right button__icon"></i>
-            </span>
-            </span>
-          </div>
-          <!-- articles 3 -->
-          <div class="articles__content">
-            <div>
-              <i class="uil uil-code-branch articles__icon"></i>
-              <h3 class="articles__title">Understanding the git diff command</h3>
-            </div>
-            <span> The git diff command can help us identify changes made to a single file, or multiple files... <br> <span class="button button--flex button--small button--link articles__button"><a href="https://medium.com/@simeon.kengere/understanding-the-git-diff-command-8f394331cd1c" target="_blank"> Read more </a>
-              <i class="uil uil-arrow-right button__icon"></i>
-            </span>
-            </span>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Portfolio</h2>
-        <span class="section__subtitle">Some of my Websites and UI/UX mockups</span>
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!-- Portfolio 1 -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/sentiment analysis.png" alt="" class="portfolio__img">
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Sentiment Analysis model</h3>
-                <p class="portfolio__description">A sentiment analysis model for the Ultra Skincare dataset</p>
-                <a href="https://github.com/Simeonone/sentiment-analysis/blob/main/NLP_Q3.ipynb" target="_blank" class="button button--flex button--small portfolio__button">Github
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
               </div>
             </div>
-            <!-- Portfolio 2 -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/mapty.PNG" alt="" class="portfolio__img">
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Mapty - Map your activities!</h3>
-                <p class="portfolio__description">Do you have a lot of places to be that you can't keep track of them all? Mapty is here to save the day!</p>
-                <a href="https://mapty-map-application-simeon-osiemo.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">Live Site
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-                <a href="https://github.com/Simeonone/mapty-map-application" target="_blank" class="button button--flex button--small portfolio__button">Github
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
+            <!-- Qualification 3 -->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <!-- <span class="qualification__line"></span> -->
               </div>
+              <div>
+                <h3 class="qualification__title">Software Engineer</h3>
+                <span class="qualification__subtitle">Ongata Rongai Sub-County Hospital</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2021(May-Nov) <span class="more__info"> <a
+                      href="https://drive.google.com/file/d/1Q6cY6XYd_TeHu2iqWWOnCo0D9mKGXH2V/view?usp=sharing"
+                      target="_blank">View </a></span>
+                </div>
+              </div>
+
             </div>
 
-            <!-- Portfolio 3 -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/missing_chef.png" alt="" class="portfolio__img">
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Missing Chef Website</h3>
-                <p class="portfolio__description">A modern website where you can search for tasty recipes</p>
-                <a href="https://missing-chef-simeon-osiemo.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">Live Site
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-                <a href="https://github.com/Simeonone/missing-chef" target="_blank" class="button button--flex button--small portfolio__button">Github<i class="uil uil-arrow-right button__icon"></i>
-                </a>
-                <!-- <a href="https://docs.google.com/document/d/18dUa7wvzV2emJfTOfFCpUUUpgDDPhE34YshMEsmfdeI/edit?usp=sharing" target="_blank" class="button button--flex button--small portfolio__button">Documentation<i class="uil uil-arrow-right button__icon"></i>
-                </a> -->
-              </div>
-            </div>
-            <!-- Portfolio 4 -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/guessing_game.PNG" alt="" class="portfolio__img">
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Guessing Game</h3>
-                <p class="portfolio__description">Pick a number and guess which of the cards contain the number you entered. Good Luck!</p>
-                <a href="https://guessing-game-simeon-osiemo.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">Live Site
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-                <a href="https://github.com/Simeonone/guessing-game" target="_blank" class="button button--flex button--small portfolio__button"> Github
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!-- Portfolio 5 -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/snapchat_clone.png"  alt="" class="portfolio__img">
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">SnapChat clone mockup</h3>
-                <p class="portfolio__description">A version of SnapChat from another planet!</p>
-                <a href="https://xd.adobe.com/view/fac658d1-48c5-46f8-bd7b-6f8b4e9b1681-af95/" target="_blank" class="button button--flex button--small portfolio__button">View Mockup
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!-- Portfolio 6 -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/football transfers.PNG" alt="" class="portfolio__img">
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Football transfers</h3>
-                <p class="portfolio__description">This website simulates transfer of selected football players between different clubs. Have fun moving players around clubs!</p>
-                <a href="https://simeons-football-transfers.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">Live Site
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-                <a href="https://github.com/Simeonone/football-transfers.git" target="_blank" class="button button--flex button--small portfolio__button"> Github
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!-- Portfolio 7 -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/football transfers marketing.PNG" alt="" class="portfolio__img">
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Football transfers - Marketing page</h3>
-                <p class="portfolio__description">This marketing website simulates the power of JavaScript from smooth scrolling to lazy loading images!</p>
-                <a href="https://simeons-transfers-marketing.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">Live Site
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-                <a href="https://github.com/Simeonone/simeons-transfers-marketing-page" target="_blank" class="button button--flex button--small portfolio__button"> Github
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-            
-            <!-- Portfolio 8 -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/country_data.PNG" alt="" class="portfolio__img">
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Country Data</h3>
-                <p class="portfolio__description">With the help of the countries API, do some fact checking on any country!</p>
-                <a href="https://simeon-country-fact-checker.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">Live Site
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-                <a href="https://github.com/Simeonone/country-and-neighbour" target="_blank" class="button button--flex button--small portfolio__button">Github
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
           </div>
-          <!--  -->
-              <!-- Add Arrows -->
-            <div class="swiper-button-next">
-              <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-            </div>
-            <div class="swiper-button-prev">
-              <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-            </div>
-                <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
         </div>
-      </section>
-      <!--==================== CONTACT ME ====================-->
-      <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in touch</span>
-        <div class="contact__container container grid">
+      </div>
+    </section>
+
+    <!--==================== Articles ====================-->
+    <section class="articles section" id="articles">
+      <h2 class="section__title">Articles</h2>
+      <span class="section__subtitle">Some of my blog posts</span>
+      <div class="articles__container container grid">
+        <!-- articles 1 -->
+        <div class="articles__content">
           <div>
-            <div class="contact__information">
-              <i class="uil uil-phone contact__icon"></i>
-              <div>
-                <h3 class="contact__title">Call or Text</h3>
-                <span class="contact__subtitle">+254713336627</span>
-              </div>
-            </div>
+            <i class="uil uil-java-script articles__icon"></i>
+            <h3 class="articles__title">Optional Chaining in JavaScript</h3>
+          </div>
+          <span> With JavaScript version ES2020, optional chaining (?.) was first introduced to help read the value of
+            properties of nested properties of objects... <br>
+            <span class="button button--flex button--small button--link articles__button"> <a
+                href="https://medium.com/weekly-webtips/optional-chaining-in-javascript-d29a9ddc8737" target="_blank">
+                Read more </a>
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+          </span>
+        </div>
+        <!-- articles 2 -->
+        <div class="articles__content">
+          <div>
+            <i class="uil uil-mobile-android articles__icon"></i>
+            <h3 class="articles__title">Create UI mockups faster in Adobe XD with components</h3>
+          </div>
+          <span> Adobe XD components help UI designers work with similar elements in multiple UI screen mockups at the
+            same time which helps them work faster and maintain uniformity across all UI screen mockups... <br> <span
+              class="button button--flex button--small button--link articles__button"><a
+                href="https://medium.com/@simeon.kengere/create-ui-mockups-faster-in-adobe-xd-with-components-9d9b6ba7b6e1"
+                target="_blank"> Read more </a>
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+          </span>
+        </div>
+        <!-- articles 3 -->
+        <div class="articles__content">
+          <div>
+            <i class="uil uil-code-branch articles__icon"></i>
+            <h3 class="articles__title">Understanding the git diff command</h3>
+          </div>
+          <span> The git diff command can help us identify changes made to a single file, or multiple files... <br>
+            <span class="button button--flex button--small button--link articles__button"><a
+                href="https://medium.com/@simeon.kengere/understanding-the-git-diff-command-8f394331cd1c"
+                target="_blank"> Read more </a>
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+    </section>
 
-            <div class="contact__information">
-              <i class="uil uil-envelope contact__icon"></i>
-              <div>
-                <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle"> <a class="mailto" href="mailto:simeon.kengere@gmail.com"> simeon.kengere@gmail.com</a></span>
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-map-marker-alt contact__icon"></i>
-              <div>
-                <h3 class="contact__title">Location</h3>
-                <span class="contact__subtitle">Nairobi, Kenya</span>
-              </div>
+    <!--==================== PORTFOLIO ====================-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portfolio</h2>
+      <span class="section__subtitle">Some of my Websites and UI/UX mockups</span>
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!-- Portfolio 1 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/sentiment analysis.png" alt="" class="portfolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Sentiment Analysis model</h3>
+              <p class="portfolio__description">A sentiment analysis model for the Ultra Skincare dataset</p>
+              <a href="https://github.com/Simeonone/sentiment-analysis/blob/main/NLP_Q3.ipynb" target="_blank"
+                class="button button--flex button--small portfolio__button">Github
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
             </div>
           </div>
-          <!-- contact form -->
-          <form action="https://formsubmit.co/simeon.kengere@gmail.com" method="POST">
-            <div class="contact__inputs grid">
-              <div class="contact__content">
-                <label for="" class="contact__label" >Name</label>
-                <input type="text" name="Name" class="contact__input" placeholder="Enter your name" required>
-              </div>
-              <div class="contact__content">
-                <label for="" class="contact__label">Email</label>
-                <input type="email" name="Email" class="contact__input" placeholder="Enter your email" required>
-              </div>
+          <!-- Portfolio 2 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/mapty.PNG" alt="" class="portfolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Mapty - Map your activities!</h3>
+              <p class="portfolio__description">Do you have a lot of places to be that you can't keep track of them all?
+                Mapty is here to save the day!</p>
+              <a href="https://mapty-map-application-simeon-osiemo.netlify.app/" target="_blank"
+                class="button button--flex button--small portfolio__button">Live Site
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="https://github.com/Simeonone/mapty-map-application" target="_blank"
+                class="button button--flex button--small portfolio__button">Github
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Portfolio 3 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/missing_chef.png" alt="" class="portfolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Missing Chef Website</h3>
+              <p class="portfolio__description">A modern website where you can search for tasty recipes</p>
+              <a href="https://missing-chef-simeon-osiemo.netlify.app/" target="_blank"
+                class="button button--flex button--small portfolio__button">Live Site
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="https://github.com/Simeonone/missing-chef" target="_blank"
+                class="button button--flex button--small portfolio__button">Github<i
+                  class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <!-- <a href="https://docs.google.com/document/d/18dUa7wvzV2emJfTOfFCpUUUpgDDPhE34YshMEsmfdeI/edit?usp=sharing" target="_blank" class="button button--flex button--small portfolio__button">Documentation<i class="uil uil-arrow-right button__icon"></i>
+                </a> -->
+            </div>
+          </div>
+          <!-- Portfolio 4 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/guessing_game.PNG" alt="" class="portfolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Guessing Game</h3>
+              <p class="portfolio__description">Pick a number and guess which of the cards contain the number you
+                entered. Good Luck!</p>
+              <a href="https://guessing-game-simeon-osiemo.netlify.app/" target="_blank"
+                class="button button--flex button--small portfolio__button">Live Site
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="https://github.com/Simeonone/guessing-game" target="_blank"
+                class="button button--flex button--small portfolio__button"> Github
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Portfolio 5 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/snapchat_clone.png" alt="" class="portfolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">SnapChat clone mockup</h3>
+              <p class="portfolio__description">A version of SnapChat from another planet!</p>
+              <a href="https://xd.adobe.com/view/fac658d1-48c5-46f8-bd7b-6f8b4e9b1681-af95/" target="_blank"
+                class="button button--flex button--small portfolio__button">View Mockup
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Portfolio 6 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/football transfers.PNG" alt="" class="portfolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Football transfers</h3>
+              <p class="portfolio__description">This website simulates transfer of selected football players between
+                different clubs. Have fun moving players around clubs!</p>
+              <a href="https://simeons-football-transfers.netlify.app/" target="_blank"
+                class="button button--flex button--small portfolio__button">Live Site
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="https://github.com/Simeonone/football-transfers.git" target="_blank"
+                class="button button--flex button--small portfolio__button"> Github
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Portfolio 7 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/football transfers marketing.PNG" alt="" class="portfolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Football transfers - Marketing page</h3>
+              <p class="portfolio__description">This marketing website simulates the power of JavaScript from smooth
+                scrolling to lazy loading images!</p>
+              <a href="https://simeons-transfers-marketing.netlify.app/" target="_blank"
+                class="button button--flex button--small portfolio__button">Live Site
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="https://github.com/Simeonone/simeons-transfers-marketing-page" target="_blank"
+                class="button button--flex button--small portfolio__button"> Github
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Portfolio 8 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/country_data.PNG" alt="" class="portfolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Country Data</h3>
+              <p class="portfolio__description">With the help of the countries API, do some fact checking on any
+                country!</p>
+              <a href="https://simeon-country-fact-checker.netlify.app/" target="_blank"
+                class="button button--flex button--small portfolio__button">Live Site
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="https://github.com/Simeonone/country-and-neighbour" target="_blank"
+                class="button button--flex button--small portfolio__button">Github
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!-- Add Arrows -->
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Call or Text</h3>
+              <span class="contact__subtitle" style="filter: blur(4px);">+254713336627</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle"> <a class="mailto" href="mailto:simeon.kengere@gmail.com">
+                  simeon.kengere@gmail.com</a></span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker-alt contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Nairobi, Kenya</span>
+            </div>
+          </div>
+        </div>
+        <!-- contact form -->
+        <form action="https://formsubmit.co/simeon.kengere@gmail.com" method="POST">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="" class="contact__label">Name</label>
+              <input type="text" name="Name" class="contact__input" placeholder="Enter your name" required>
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label">Message</label>
-              <textarea name="Message" id="" cols="0" rows="7" class="contact__input" placeholder="Enter your message" required></textarea>
+              <label for="" class="contact__label">Email</label>
+              <input type="email" name="Email" class="contact__input" placeholder="Enter your email" required>
             </div>
-            <!-- <div>
+          </div>
+          <div class="contact__content">
+            <label for="" class="contact__label">Message</label>
+            <textarea name="Message" id="" cols="0" rows="7" class="contact__input" placeholder="Enter your message"
+              required></textarea>
+          </div>
+          <!-- <div>
               <a href="#" type="submit" class="button button--flex">
                 Send Message
                 <i class="uil uil-message button__icon"></i>
               </a>
             </div> -->
-            <button type="submit" class="button button--flex">Send Message
-              <i class="uil uil-message button__icon"></i>
-            </button>
-            
-          </form>
-        </div>
-      </section>
-    </main>
+          <button type="submit" class="button button--flex">Send Message
+            <i class="uil uil-message button__icon"></i>
+          </button>
 
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-      <div class="footer">
-        <div class="footer__bg">
-          <div class="footer__container container grid">
-            <div>
-              <h1 class="footer__title">Simeon Osiemo</h1>
-              <span>
-              <img src="/assets/img/logo.png" alt="logo" class="logo__image">
-              </span>      
-            </div>
-            <ul class="footer__links">
-              <li>
-                <a href="#articles" class="footer__link">Articles</a>
-              </li>
-              <li>
-                <a href="#portfolio" class="footer__link">Portfolio</a>
-              </li>
-              <li>
-                <a href="#contact" class="footer__link">Contact</a>
-              </li>
-            </ul>
-            <div class="footer__socials">
-              <a href="https://twitter.com/@KengereSimeon" target="_blank" class="footer__social">
-                <i class="uil uil-twitter-alt"></i>
-              </a>
-              <a href="https://www.credly.com/users/simeon-kengere" target="_blank" class="footer__social">
-                My Credly Profile
-              </a>
-            </div>
-          </div>
-          <p class="footer__copy">
-            &copy; 2024 | Simeon Osiemo
-          </p>
-        </div>
+        </form>
       </div>
-    </footer>
+    </section>
+  </main>
 
-    <!--==================== SCROLL TOP ====================-->
-<a href="#" class="scrollup" id="scroll-up">
-  <i class="uil uil-arrow-up scrollup__icon"></i>
-</a>
-    <!--==================== SWIPER JS ====================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Simeon Osiemo</h1>
+            <span>
+              <img src="/assets/img/logo.png" alt="logo" class="logo__image">
+            </span>
+          </div>
+          <ul class="footer__links">
+            <li>
+              <a href="#articles" class="footer__link">Articles</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+          <div class="footer__socials">
+            <a href="https://twitter.com/@KengereSimeon" target="_blank" class="footer__social">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+            <a href="https://www.credly.com/users/simeon-kengere" target="_blank" class="footer__social">
+              My Credly Profile
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy">
+          &copy; 2024 | Simeon Osiemo
+        </p>
+      </div>
+    </div>
+  </footer>
 
-    <!--==================== MAIN JS ====================-->
-    <!-- <script src="assets/js/main.js"></script> -->
-  </body>
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+  <!--==================== SWIPER JS ====================-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--==================== MAIN JS ====================-->
+  <!-- <script src="assets/js/main.js"></script> -->
+</body>
+
 </html>
